@@ -1,0 +1,13 @@
+{
+  "name": "l17helper",
+  "description": "",
+  "version": "0.0.1",
+  "manifest_version": 3
+  "background": {
+      "service_worker": "background.js"
+  },
+  "permissions": ["storage"],
+  "action": {
+      "default_popup": "popup.html"
+  }
+}
